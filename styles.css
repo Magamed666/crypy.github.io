@@ -1,3 +1,41 @@
+/* Общие стили для всего сайта */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #343a40; /* Темный серый цвет */
+    color: #ffffff; /* Белый цвет текста */
+    padding: 20px 0;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #ffffff !important; /* Белый цвет текста для ссылок */
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+    color: #cccccc !important; /* Серый цвет при наведении */
+}
+
+main {
+    padding: 50px 0;
+}
+
+footer {
+    background-color: #343a40; /* Темный серый цвет */
+    color: #ffffff; /* Белый цвет текста */
+    padding: 20px 0;
+}
+
 /* Стили для карусели */
 .carousel {
     position: relative;
@@ -50,6 +88,7 @@ input[type="radio"]:checked + .carousel-inner {
 /* Стили для секции с контактами */
 #contact {
     padding: 50px 0;
+    background-color: #f8f9fa; /* Светло-серый цвет фона */
 }
 
 #contact .container {
@@ -59,10 +98,12 @@ input[type="radio"]:checked + .carousel-inner {
 #contact h2 {
     font-size: 2rem;
     margin-bottom: 30px;
+    color: #212529; /* Черный цвет текста */
 }
 
 #contact p {
     font-size: 1.2rem;
+    color: #212529; /* Черный цвет текста */
 }
 
 #contact .col-md-6 {
@@ -71,8 +112,10 @@ input[type="radio"]:checked + .carousel-inner {
 
 #contact h4 {
     font-size: 1.5rem;
+    color: #212529; /* Черный цвет текста */
 }
 
 #contact p {
     font-size: 1.2rem;
+    color: #212529; /* Черный цвет текста */
 }
