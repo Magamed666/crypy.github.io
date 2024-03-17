@@ -1,45 +1,48 @@
-/* styles.css */
-
-/* Contact section styles */
-#contact {
-    background-color: #fce4ec; /* Розовый фон */
-    padding: 50px 0;
+/* Стили для карусели */
+.carousel {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin-top: 50px;
 }
 
-#contact h2 {
-    color: #e91e63; /* Розовый цвет текста заголовка */
-    margin-bottom: 30px;
+.carousel-inner {
+    display: flex;
+    flex-wrap: nowrap;
+    transition: transform 0.5s ease;
 }
 
-#contact p {
-    color: #333; /* Цвет текста */
-}
-
-#contact .row {
-    justify-content: center;
-}
-
-#contact .col-md-6 {
-    margin-bottom: 30px;
-}
-
-/* Carousel styles */
 .carousel-item {
-    background-color: #fce4ec; /* Розовый фон */
+    flex: 0 0 100%;
 }
 
-.carousel-caption {
-    color: #e91e63; /* Розовый цвет текста */
+.carousel-item > .container {
+    padding: 20px;
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    background-color: #e91e63; /* Розовый цвет стрелок управления */
+.carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
 }
 
-/* Footer styles */
-footer {
-    color: #fff; /* Белый цвет текста */
-    background-color: #e91e63; /* Розовый фон */
-    padding: 20px 0;
+.carousel-indicators label {
+    cursor: pointer;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+    margin: 0 5px;
+}
+
+input[type="radio"]:checked + .carousel-inner {
+    transform: translateX(-100%);
+}
+
+#slide2:checked ~ .carousel-indicators > label:nth-child(2),
+#slide3:checked ~ .carousel-indicators > label:nth-child(3) {
+    background-color: #333;
 }
