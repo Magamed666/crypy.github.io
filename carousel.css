@@ -1,90 +1,61 @@
 /* GLOBAL STYLES */
-/* Padding below the footer and lighter body text */
 body {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  color: #333; /* Цвет текста */
-  font-family: Arial, sans-serif; /* Шрифт */
-  background-color: #f8f9fa; /* Цвет фона */
+  color: #333;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
 }
 
-/* HEADER STYLES */
-.navbar {
-  background-color: #343a40; /* Цвет фона навигационной панели */
-}
-
-.navbar-brand {
-  color: #fff; /* Цвет текста в логотипе */
-}
-
-.navbar-nav .nav-link {
-  color: #fff; /* Цвет текста ссылок */
-}
-
-/* CAROUSEL STYLES */
-.carousel-item {
-  height: 500px; /* Высота слайдов карусели */
+/* CUSTOMIZE THE CAROUSEL */
+.carousel {
+  margin-bottom: 4rem;
 }
 
 .carousel-caption {
-  bottom: 2rem;
+  bottom: 3rem;
+  z-index: 10;
 }
 
-.carousel-caption h1 {
-  font-size: 3rem; /* Размер заголовков в слайдах */
-  color: #333; /* Цвет заголовков */
+.carousel-item {
+  height: 32rem;
 }
 
-.carousel-caption p {
-  font-size: 1.5rem; /* Размер текста в слайдах */
-  color: #555; /* Цвет текста */
-}
-
-/* MARKETING CONTENT STYLES */
+/* MARKETING CONTENT */
 .marketing .col-lg-4 {
-  margin-bottom: 2rem;
-}
-
-.marketing .col-lg-4 h2 {
-  font-size: 2rem; /* Размер заголовков */
-  color: #333; /* Цвет заголовков */
+  margin-bottom: 1.5rem;
+  text-align: center;
 }
 
 .marketing .col-lg-4 p {
-  font-size: 1.25rem; /* Размер текста */
-  color: #555; /* Цвет текста */
+  margin-right: .75rem;
+  margin-left: .75rem;
 }
 
-/* FOOTER STYLES */
-footer {
-  padding: 4rem 0;
-  background-color: #343a40; /* Цвет фона подвала */
-  color: #fff; /* Цвет текста */
+/* Featurettes */
+.featurette-divider {
+  margin: 5rem 0;
 }
 
-.footer-links a {
-  color: #fff; /* Цвет ссылок в подвале */
-}
-
-.footer-links a:hover {
-  text-decoration: none;
+.featurette-heading {
+  font-size: 50px;
 }
 
 /* RESPONSIVE CSS */
-@media (min-width: 768px) {
-  .carousel-caption h1 {
-    font-size: 4rem;
-  }
-
+@media (min-width: 40em) {
   .carousel-caption p {
-    font-size: 1.75rem;
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
   }
 
-  .marketing .col-lg-4 h2 {
-    font-size: 2.5rem;
+  .featurette-heading {
+    font-size: 50px;
   }
+}
 
-  .marketing .col-lg-4 p {
-    font-size: 1.5rem;
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
   }
 }
