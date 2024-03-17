@@ -1,168 +1,45 @@
-/* Предложенные стили */
+/* styles.css */
 
-/* Global Styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+/* Contact section styles */
+#contact {
+    background-color: #fce4ec; /* Розовый фон */
+    padding: 50px 0;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
+#contact h2 {
+    color: #e91e63; /* Розовый цвет текста заголовка */
+    margin-bottom: 30px;
 }
 
-/* Navbar Styles */
-.navbar-brand {
-    font-size: 1.5rem;
+#contact p {
+    color: #333; /* Цвет текста */
 }
 
-.navbar-nav .nav-link {
-    font-size: 1.1rem;
-    padding: 0.5rem 1rem;
+#contact .row {
+    justify-content: center;
 }
 
-/* Jumbotron Styles */
-.jumbotron {
-    background-color: #f8f9fa;
-    padding: 3rem 1rem;
+#contact .col-md-6 {
+    margin-bottom: 30px;
 }
 
-.jumbotron h1 {
-    font-size: 3rem;
-}
-
-.jumbotron p {
-    font-size: 1.25rem;
-}
-
-/* Marketing Section Styles */
-.marketing .col-lg-4 {
-    margin-bottom: 2rem;
-}
-
-.marketing h2 {
-    font-size: 2rem;
-}
-
-.marketing p {
-    font-size: 1.1rem;
-}
-
-/* Footer Styles */
-footer {
-    background-color: #343a40;
-    color: #ffffff;
-    padding: 1.5rem 0;
-}
-
-/* Button Styles */
-.btn-primary {
-    background-color: #007bff;
-    border-color: #007bff;
-}
-
-.btn-secondary {
-    background-color: #6c757d;
-    border-color: #6c757d;
-}
-
-.btn-primary:hover, .btn-secondary:hover {
-    filter: brightness(85%);
-}
-
-/* Responsive Styles */
-@media (max-width: 991.98px) {
-    .navbar-nav .nav-link {
-        font-size: 0.9rem;
-    }
-
-    .jumbotron h1 {
-        font-size: 2.5rem;
-    }
-
-    .jumbotron p {
-        font-size: 1rem;
-    }
-
-    .marketing h2 {
-        font-size: 1.5rem;
-    }
-
-    .marketing p {
-        font-size: 1rem;
-    }
-}
-
-@media (max-width: 767.98px) {
-    .navbar-brand {
-        font-size: 1.2rem;
-    }
-
-    .navbar-nav .nav-link {
-        font-size: 0.9rem;
-    }
-
-    .jumbotron h1 {
-        font-size: 2rem;
-    }
-
-    .jumbotron p {
-        font-size: 1rem;
-    }
-
-    .marketing h2 {
-        font-size: 1.2rem;
-    }
-
-    .marketing p {
-        font-size: 0.9rem;
-    }
-
-    footer {
-        font-size: 0.9rem;
-    }
-}
+/* Carousel styles */
 .carousel-item {
-    background-color: #f8bbd0; /* Цвет фона слайдов */
-    color: #fff; /* Цвет текста */
+    background-color: #fce4ec; /* Розовый фон */
 }
 
 .carousel-caption {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    color: #e91e63; /* Розовый цвет текста */
 }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    background-color: rgba(255, 105, 180, 0.5); /* Розовый цвет иконок управления */
+    background-color: #e91e63; /* Розовый цвет стрелок управления */
 }
 
-.carousel-control-prev,
-.carousel-control-next {
-    width: 5%; /* Ширина кнопок управления */
-}
-
-.carousel-control-prev {
-    left: -30px; /* Позиция кнопки предыдущего слайда */
-}
-
-.carousel-control-next {
-    right: -30px; /* Позиция кнопки следующего слайда */
-}
-
-.carousel-indicators {
-    margin-bottom: 20px; /* Отступ между индикаторами и слайдами */
-}
-
-.carousel-indicators button {
-    background-color: #ff69b4; /* Розовый цвет неактивных индикаторов */
-    border-color: #ff69b4; /* Розовый цвет границы неактивных индикаторов */
-}
-
-.carousel-indicators .active {
-    background-color: #ff1493; /* Розовый цвет активного индикатора */
-    border-color: #ff1493; /* Розовый цвет границы активного индикатора */
+/* Footer styles */
+footer {
+    color: #fff; /* Белый цвет текста */
+    background-color: #e91e63; /* Розовый фон */
+    padding: 20px 0;
 }
