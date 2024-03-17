@@ -124,3 +124,45 @@ footer {
         font-size: 0.9rem;
     }
 }
+.carousel-item {
+    background-color: #f8bbd0; /* Цвет фона слайдов */
+    color: #fff; /* Цвет текста */
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(255, 105, 180, 0.5); /* Розовый цвет иконок управления */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%; /* Ширина кнопок управления */
+}
+
+.carousel-control-prev {
+    left: -30px; /* Позиция кнопки предыдущего слайда */
+}
+
+.carousel-control-next {
+    right: -30px; /* Позиция кнопки следующего слайда */
+}
+
+.carousel-indicators {
+    margin-bottom: 20px; /* Отступ между индикаторами и слайдами */
+}
+
+.carousel-indicators button {
+    background-color: #ff69b4; /* Розовый цвет неактивных индикаторов */
+    border-color: #ff69b4; /* Розовый цвет границы неактивных индикаторов */
+}
+
+.carousel-indicators .active {
+    background-color: #ff1493; /* Розовый цвет активного индикатора */
+    border-color: #ff1493; /* Розовый цвет границы активного индикатора */
+}
