@@ -46,3 +46,33 @@ input[type="radio"]:checked + .carousel-inner {
 #slide3:checked ~ .carousel-indicators > label:nth-child(3) {
     background-color: #333;
 }
+
+/* Стили для секции с контактами */
+#contact {
+    padding: 50px 0;
+}
+
+#contact .container {
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+#contact p {
+    font-size: 1.2rem;
+}
+
+#contact .col-md-6 {
+    margin-top: 30px;
+}
+
+#contact h4 {
+    font-size: 1.5rem;
+}
+
+#contact p {
+    font-size: 1.2rem;
+}
