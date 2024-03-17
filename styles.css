@@ -1,0 +1,58 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe6e6;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffcccc;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #ffcccc;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Стили для ссылок */
+a {
+    color: #333333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Стили для заголовков */
+h1, h2 {
+    color: #333333;
+}
+
+/* Стили для параграфов */
+p {
+    color: #333333;
+}
